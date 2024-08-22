@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    background-color: #8B8B8B;
+} 
+.container{
+    width: 600px;
+    margin: 20px auto 5px auto;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+}
+header{
+    width: 600px;
+    background-image: url(image/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+    height: 167px;
+    background-repeat: no-repeat;
+    background-size: 600px 167px;
+    color: white;
+}
+header h1{
+    padding: 46px 0px 19px 46px;
+    margin: 0px;
+}
+header h2{
+    padding: 0px 0px 0px 46px;
+    margin: 0px;
+    font-size: 22px;
+}
+.individual-item{
+    width: 508px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.individual-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 46px;
+}
+.individual-item-details{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    gap: 8px;
+}
+.individual-item-details h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px;
+}
+.individual-item-details p {
+    font-size: 16px;
+    margin: 0px;
+    color: #8B8B8B;
+}
+.individual-item-details h3 {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 500;
+}
+.individual-item button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    color: #3C3C3C;
+    background-color: white;
+    margin-left: 120px;
+}
+hr{
+    width:80%;
+    height:1px;
+    margin:auto;
+    border-width:0px;
+    background-color:#d2d2d2;
+}
+h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+#cost-item{
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+}
+.order-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 508px;
+}
+.order-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:13px;
+ 
+}
+.order-name button{
+    border: none;
+    color: #bbbbbb;
+    font-size: 12px;
+    background: none;
+}
+.order-details h2 {
+    font-size: 28px;
+    font-weight: 100;
+}
+.order-details h3 {
+    font-size: 20px;
+    font-weight: 100;
+}
+#complete-order {
+    border: none;
+    color: white;
+    background-color: #16DB99;
+    font-weight: bold;
+    font-size: 16px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cost-item hr{
+    width:85%;
+    height:2px;
+    margin:auto;
+    border-width:0px;
+    background-color:#393333;
+}
+#modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 542px;
+    width: 524px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 255px  rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    align-content: center;
+   
+}
+input{
+    margin-top: 23px; 
+    border: 1px solid #757575;
+    padding-left: 15px;
+    width: 475px;
+    height: 70px;
+    border-radius: 3px;
+
+    font-size: 20px;
+    
+}
+.modal h2{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.modal button{
+    border: none;
+    color: white;
+    background-color: #16DB99;
+    font-weight: bold;
+    font-size: 20px;
+    width: 475px;
+    height: 71px;
+    margin-top: 46px;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 504px;
+    height: 120px;
+    border-radius: 3px;
+    background-color: #ECFDF5;
+    font-size: 32px;
+    color: #065F46;
+    text-align: center;
+    justify-content: center;
+    margin: 45px auto;
+}
